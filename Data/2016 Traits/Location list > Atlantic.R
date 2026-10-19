@@ -1,0 +1,36 @@
+# Load required libraries
+library(sf)
+library(rnaturalearth)
+library(dplyr)
+
+# 1. Download the Atlantic Ocean polygon data
+ocean_features <- ne_download(scale = 110, type = "geography_marine_polys", category = "physical", returnclass = "sf")
+atlantic_polygon <- ocean_features %>% 
+  filter(grepl("Atlantic Ocean", name, ignore.case = TRUE))
+
+# 2. Read your CSV file
+my_data <- read.csv("locations.csv", stringsAsFactors = FALSE)
+
+# -------------------------------------------------------------
+# FIX: Remove rows where longitude or latitude is missing (NA)
+# Replace "longitude" and "latitude" with your actual column names
+my_data_clean <- my_data %>%
+  filter(!is.na(longitude) & !is.na(latitude)) 
+# -------------------------------------------------------------
+
+# 3. Convert the CLEANED data into an R spatial object
+my_points_sf <- st_as_sf(
+  my_data_clean,                          # Use the cleaned data frame here
+  coords = c("longitude", "latitude"), 
+  crs = 4326, 
+  remove = FALSE  
+)
+
+# 4. Filter coordinates inside the Atlantic Ocean
+atlantic_points_sf <- st_intersection(my_points_sf, atlantic_polygon)
+
+# 5. Save as a new CSV
+result_df <- atlantic_points_sf 
+
+write.csv(result_df, "atlantic_coordinates.csv", row.names = FALSE)
+cat("Success! Filtered coordinates have been saved.\n")
