@@ -1,0 +1,124 @@
+﻿method_id,method_name,method_description
+3,Archimedes principle,Weighing coral skeleton first in air and then suspended briefly from an analytic balance into freshwater (Graus & MacIntyre 1982
+4,Callipers,The use of a calliper as a measurement tool.
+6,Depth gauge,Diving depth gauge measurement.
+7,Transect tape,The use of a transect tape.
+8,X-Ray diffraction,A laboratory technique which reveals structural information such as chemical composition and crystal structure
+15,Image analysis,"Typically revolves around opening an image in ImageJ or Photoshop, setting a scale, and using geometrical tools to measure linear dimensions, outlines, counts or areas."
+16,Microscopy,Obersvations or measurement made with a microscope.
+19,observation_field,Direct observation in the field.
+21,inferred,Information inferred from other previously obtained data.
+22,Derived from textual description,Typically a group opinion that has been derived from text about a coral colony or species.
+23,Extracted from data table,Usually used when the original data cannot be traced to an original resource or for expert or group opinions that are themselves published as original data.
+32,Product of linear extension and bulk density,Product of linear extension and bulk density
+48,Ash free dry weight (AFDW),"Formalin/acid, Dried at 60 degrees C (?)"
+51,DGGE,Denaturing gradient gel electrophoresis (molecular tecnique).
+54,Ruler measurement,The use of a ruler.
+78,Growth rate estimated from length-age growth functions,"The age of each sample was estimated using the von Bertalanffy length‚Äìage growth functions, previously obtained for each population based on growth bands analysis by means of computerized tomography (von Bertalanffy 1938"
+mt10,Estimated from known values of size and growth rate,Data estimated from known values of size and growth rate.
+mt11,Measures of colony size on substrata of known age,By obtaining measures of colony size on susbtrata of known age it is possible to calculate the age of a coral colony. 
+mt12,Drawing,This methodology typically involves drawing a colony to collect it the following year and measure the growth.
+mt13,14-C bomb-pulse dating,"A technique used to estimate the age or growth rates of coral colonies by measuring the concentration of radiocarbon (14-C) in their skeletons, which is affected by the atmospheric nuclear bomb tests conducted in the mid-20th century. These tests caused a significant spike in atmospheric 14-C levels, known as the ""bomb pulse."" "
+mt14,210Pb dating ,"A method used to estimate the age of corals by measuring the amount of lead-210 (210Pb), a radioactive isotope, present in the sample"
+mt15,14-C dating,"Also known as radiocarbon dating, is a method used to determine the age of an organic material by measuring the amount of carbon-14 (14-C) it contains."
+mt19,Extracted from regional/global databases of environmental data,Data obtained from from regional/global databases of environmental data.
+mt21,CTD measurements,"Refer to the use of a CTD instrument (Conductivity, Temperature, and Depth) to collect data about the physical properties of seawater."
+mt23,Growth rings count using Organic-Matrix-Staining method (OMS) ,Growth rings count using Organic-Matrix-Staining method (OMS).
+mt24,Estimated from known values of age and size,"Growth rates derived from diameter age relationship. Typically, age has been previously calculated using growth rings"
+mt25,Micrometer,A precision measuring instrument used to measure the thickness or diameter of small objects with high accuracy.
+mt26,Estimated from diameter measurements in colonies of known age,By measuring diameter in colonies of known age it is possible to estimate growth rate.
+mt29,Estimated from colony height and known values of growth rates in area,Model A relates age and height of colonies based on growth rates obtained from measuring of the increase in the Branch Fan Surface  Area of tagged colonies during yars of study
+mt30,Estimated from colony height and known values of growth rates in height,Model B relates age and hieght of colonies based on growth rates estimated from measuring the increase in height of colonies over time
+mt32,Estimated from Branch Fan Surface Ara using a Power growth function,A method of estimating the growth or size of corals based on the surface area of its branch or fan-like structure.
+mt33,Estimated from the difference between trunk diameter and axial skeleton diameter,Measuring the difference between trunk diameter and axial skeleton diameter is possible to calculate the tissue thickness.
+mt34,3D photogrammetric reconstructions,Repeated measurements of total length in 3D mesh models
+mt35,Repeated calliper measurements,Linear extension (cm yr−1) was estimated from the least squares regression line slope of height (cm) vs. time (yr)
+mt36,Measuring distances from the growing edge of the colony to a permanent reference line.,Horizontal growth of the H. coerulea colony was measured by taking the distance from the growing edge to a permanent reference line marked by two concrete nails hammered onto the reef floor near the colony.
+mt38,Derived from logistic model of growth increments (assumed to be annual) and colony height,Derived from logistic model of growth increments (assumed to be annual) and colony height refers to a method used to estimate the growth of a colony by applying a logistic growth model.
+mt39,Derived from Gompertz model of growth increments (assumed to be annual) and colony height,"Refers to using the Gompertz growth model to estimate the growth of an organism, such as a coral colony, based on its annual growth increments and height. The Gompertz model is a sigmoidal (S-shaped) growth function often used to describe growth that slows over time as the organism approaches its maximum potential size"
+mt40,Derived from Richards model of growth increments (assumed to be annual) and colony height,"Refers to the use of the Richards growth model to estimate the growth of an organism, such as a coral colony, based on its annual growth increments and height. The Richards model is a flexible sigmoidal (S-shaped) growth function that generalizes both the Gompertz and logistic growth models."
+mt41,Derived from Gompertz model of diameter growth increments after repeated measurements,Derived from Gompertz model of diameter growth increments after repeated measurements
+mt42,Repeated length measurements in the field,"Reapetd measure of height (typically using a tape, ruler..) "
+mt43,Image analysis on consecutive years,Images were digitized to measure growth between every consecutive year that the corals were imaged
+mt44,Image analysis on non consecutive years,Growth was measured directly between 2012 and 2017 using only the images collected in those two years
+mt45,Mistri and Ceccherelli (1993) age equation,A formula used to estimate the age of organisms based on growth parameters derived from observed biological data
+mt46,Gelman planimeter,A device used to measure the area of irregular shapes on a surface by tracing their outline
+mt47,Polygon of superposed rectangles,"The area of the polygon which resulted from considering three superposed rectangles, obtained by means of three width measurements taken at equal distances perpendicular to fan height"
+mt48,Inferred from growth rates and minimum size at reproduction,Inferred from average growth rates and minimum axial polyp size associated with production of pigmented gonads >250 μm in diameter.
+mt49,Derived from Watford plot,Walford plots factor out differences in growth that are age dependent by plotting growth (ring thickness) at age N + 1 on the ordinate versus growth at age N on the abscissa
+mt50,Fan area was estimated from colony height by assuming the colony to be circular in shape in its plane of growth,Fan area was estimated from colony height by assuming the colony to be circular in shape in its plane of growth.
+mt51,Measuring growth from scar of known age,"Knowing the age of a scar, it is possible to estimate growth rate of a colony."
+mt52,Video analysis,Analysis of video
+mt53,Inferred from volume displacement,Estimated based on the amount of fluid displaced by a coral.
+mt54,Observation in aquaria,Studied traits of organisms in controlled aquarium environments.
+mt55,Estimating colony weight increments in situ,"The technicue as proposed by Bak, R.P.M. (1973)"
+mt56,DNA sequencing,Sequenciation of DNA
+mt57,Analysis of microsatellites,"The analysis of a set of short repeated DNA sequences at a particular locus on a chromosome, which vary in number in different individuals and so can be used for genetic fingerprinting."
+mt58,FlowCAM Imaging Particle Analyzer,"A device that captures high-resolution images of particles in fluids, allowing for analysis of size, shape, and composition in real-time"
+mt59,PCR-denaturing gradient gel electrophoresis fingerprinting analysis,"PCR-DGGE fingerprinting is a method for analyzing DNA by amplifying specific fragments and separating them on a gel with a denaturing gradient, revealing sequence variations as distinct bands."
+mt60,Length variation in domain V of the chloroplast large subunit of rDNA (cp23S-rDNA) ,"The method involves amplifying the cp23S-rDNA region using PCR, followed by analyzing the length variation in domain V through techniques like gel electrophoresis. This reveals genetic differences based on fragment size."
+mt61,ITS-rDNA,Sequences of the internal transcribed spacer region of ribosomal DNA 
+mt62,Incubations,"Coral samples or entire colonies are maintained under specific environmental conditions (e.g., temperature, light, or water quality) in incubation chambers."
+mt63,Chloroplast Large Subunit (cp23S)–rDNA Genotyping Technique,The Chloroplast Large Subunit (cp23S)–rDNA genotyping technique involves analyzing the 23S rRNA gene from the chloroplast DNA to identify genetic variation
+mt65,Derived from photographs of specimens,Data obtained from photographs that have been previously taken. 
+mt66,Observation in laboratory,When a given observation has not been obtained from the sea but at a laboratory.
+mt68,Identification key,Trait value coded using an identification guide that gives information on a specific species
+mt69,Species-specific value inherited from genus level,"Trait value coded for a given species using information at the genus level. Typically, traits coded using this method are traits that do not vary within genus, and therefore, species-specific values can be assumed from information at the genus level"
+mt70,Species-specific value inherited from family level,"Trait value coded for a given species using information at the family level. Typically, traits coded using this method are traits that do not vary within family, and therefore, species-specific values can be assumed from information at the family level"
+mt71,Extracted from tabular key,Trait value coded based on the information contained in a tabular key for the identification of species
+mt73,Dissecting microscope,Also called stereomicroscope
+mt75,Repeated measurements of length on transplanted colonies (with clamps),Repeated measurements of length on transplanted colonies (with clamps).
+mt76,Repeated measurements of length on transplanted colonies (with PVC racks),Repeated measurements of length on transplanted colonies (with PVC racks).
+mt77,Repeated measurements of length on juvenile colonies transplanted in transplanted stones,Repeated measurements of length on juvenile colonies transplanted in transplanted stones.
+mt78,Bottom otter trawl nets,"The bottom otter trawl net method involves towing a large, funnel-shaped net along the seafloor to capture marine organisms."
+mt80,Raman spectroscopy,The use of a technique that relies upon inelastic scattering of photons.
+mt81,Bouyant weight,A technique that measures weight due to gravity minus the upward buoyant force of water.
+mt82,Stable isotope analysis,A technique that separates different isotopes of an element on the basis of their mass-to-charge ratio.
+mt83,Polyp content examination,Polyps dissected to analyse the gastrovascular contents under a binocular and a light microscope 
+mt84,Lyophilization of whole-body tissues,A technique that primarily involves the removal of water content of a biological sample.
+mt85,Radiocarbon labelling,A form of labelling in which stable C-12 is replaced by isotopes.
+mt86,Haemocytometer chamber,"A haemocytometer chamber is a specialized glass slide used for counting cells, under a microscope."
+mt87,"Dark/light bottle method (Sorokin, 1984)","The Dark/Light Bottle Method (Sorokin, 1984) is used to measure primary productivity in aquatic ecosystems. It involves placing water samples into two separate bottles: one kept in the dark to prevent photosynthesis and the other exposed to light to allow photosynthesis. The difference in oxygen concentration between the light and dark bottles indicates the net primary productivity, with the light bottle measuring oxygen production through photosynthesis and the dark bottle accounting for oxygen consumption through respiration. This method helps assess the rate of photosynthetic activity and overall productivity in aquatic environments."
+mt88,Histological analysis of coral tissue,Histological analysis of coral tissue involves the microscopic examination of thin sections of coral tissue to study its cellular structure and composition.
+mt89,Observing rate of removal of labelled algae,"Observing the rate of removal of labeled algae involves tracking the removal or consumption of algae that have been tagged with a detectable label, such as a radioactive or fluorescent marker, by organisms or environmental processes."
+mt90,Box-counting method,"Involves laying a square mesh grid of various sizes (r), over the gorgonian image (fractal) to count how many boxes (N) are required to cover it completely."
+mt91,size-based matrix models,"Size-based matrix models are mathematical models used to study population dynamics by focusing on the size or age structure of individuals within a population, rather than just counting individuals."
+mt92,SfM processing GoPro,SfM (Structure from Motion) processing with a GoPro involves using images taken with a GoPro camera to create 3D models or reconstructions of environments or objects
+mt93,SfM processing  Sony NEX7,SfM (Structure from Motion) processing with a Sony NEX7 involves using images taken with a Sony NE7 camera to create 3D models or reconstructions of environments or objects
+mt95,Calliper used 3 cm below the branch tip,A caliper used 3 cm below the branch tip refers to the practice of measuring a specific point on a branch of a coral at a standardized distance from the tip.
+mt98,Observing in situ rates of phytoplankton depletion,"Observing in situ rates of phytoplankton depletion involves monitoring the natural decrease or consumption of phytoplankton in their native environment, typically using field-based methods."
+mt99,Electron probe microanalizer,Also called electron microprobe; is an analytical tool used to non-destructively determine the chemical composition of small volumes of solid materials.
+mt100,Inferred from height values using an equation,"Inferred from height values using an equation refers to estimating or calculating a certain parameter (e.g., biomass, volume, or age) of an object or organism based on its height, using a predefined mathematical formula or model."
+mt102,Incubations to measure Ca45 radioactivity uptake,Incubations to measure Ca-45 radioactivity uptake involve exposing organisms or samples (such as coral) to a solution containing the radioactive isotope Calcium-45 (Ca-45) and measuring the uptake of the isotope over time.
+mt103,Atomic absorption spectroscopy,"Atomic absorption spectroscopy (AAS) is an analytical technique used to measure the concentration of metal elements in a sample. In AAS, a sample is typically vaporized in a flame or graphite furnace, and the absorption of light by atoms in the vapor is measured."
+mt104,Alkalinity anomaly technique,"The alkalinity anomaly technique is used to measure the uptake or release of carbon dioxide (CO₂) in aquatic environments, often in the context of studying primary productivity or respiration in marine or freshwater ecosystems. This method involves adding a known quantity of an acid or base to a water sample and measuring the resulting changes in alkalinity. The difference in alkalinity before and after the addition can indicate the amount of CO₂ absorbed or released by the system."
+mt105,Inductively Coupled Plasma Optical Emission spectroscopy (ICP-OES),"Inductively Coupled Plasma Optical Emission Spectroscopy (ICP-OES) is an analytical technique used to detect and measure the concentration of various elements in a sample. It works by introducing a sample into a high-temperature plasma, where the elements are atomized and excited."
+mt107,Trait value coded using a compilation of data from previous works,Trait value coded using a compilation of data from previous works refers to the process of assigning a numerical or categorical value to a specific biological or ecological trait (such as size or growth rate) based on information collected and published in earlier studies.
+mt109,Wet weight estimation,"An estimation of weightof a coral in its natural state, without water having been previously removed."
+mt111,bending beams method with cathetometer,A technique to measure beam deflection under load. A cathetometer records precise vertical displacements to study material stiffness and elasticity
+mt112,bending beams in dried specimens,"Bending beams in dried specimens refers to a method used to study the mechanical properties, such as stiffness or flexibility, of dried biological or material samples by subjecting them to bending forces."
+mt113,Energy dispersive spectroscopy,Energy Dispersive Spectroscopy (EDS) is an analytical technique used to identify and quantify the elemental composition of a sample. It is typically coupled with scanning electron microscopy (SEM) to analyze the surface of materials.
+mt114,Expert opinion,An expert opinion is the judgment or analysis provided by someone with specialized knowledge or expertise in a particular field or subject.
+mt115,Examination of collected specimens,Examination of collected specimens refers to the process of analyzing biological coral samples that have been gathered for study.
+mt116,Estimated from colony height in previously dated colonies using growth ring method,"Refers to a technique used to estimate growth rate of a coral colony, in which the height of a colony is measured and compared to growth rings (similar to tree rings) that are formed annually. "
+mt117,Estimated from colony height in previously dated colonies using bomb 14C method,A technique used to estimate the growth rate of coral colonies based on known age (through bomb 14-C technique) and values of colony height.
+mt118,Estimated from colony height in previously dated colonies using 14C method,A technique used to estimate the growth rate of coral colonies based on known age (through 14-C technique) and values of colony height.
+mt120,Textual description in identification guide,"Refers to a written explanation or detailed account of the key characteristics used to identify a specific organism, object, or specimen"
+mt121,Trait value derived from Fabricius and Alderslade (2001),"Trait value derived from Fabricius and Alderslade (2001) textual descriptions, mostly made at the genus level"
+mt122,"Trait value derived from DORIS online identification guide, based on expert opinions","Trait value derived from DORIS online identification guide, based on expert opinions"
+mt124,"Trait value derived from Picton, B.E. & Morrow, C.C. (2016) online identification guide","Trait value derived from the descriptions provided in Picton, B.E. & Morrow, C.C. (2016) online identification guide"
+mt125,Derived from photographs of live colonies,Trait data derived from photographs of live colonies
+mt126,IUCN red list assesment,"The IUCN Red List assessment is a process used to evaluate the conservation status of species worldwide, conducted by the International Union for Conservation of Nature (IUCN)."
+mt127,Extracted from OBIS_Accessed in November_2023,"Refers to data or information that has been retrieved from the Ocean Biogeographic Information System (OBIS), a global database that provides access to biodiversity data related to marine species."
+mt128,Species-specific trait value inherited from Class Octocorallia,"Trait value coded for a given species using information at the Class level. Traits coded using this method are traits that do not vary within Class, and therefore, species-specific values can be assumed from information at the Class level"
+mt129,Trait value coded based on the location where specimens were collected,Trait value coded based on the location where specimens were collected
+mt130,Examination of fragmented specimens,"Refers to the analysis of broken or incomplete samples, which may lead to relevant but incomplete information. For example, estimating the size of a coral fragment gives information about the minimum potential size that a coral species may reach."
+mt131,Inferred from genus-level acquisition of morphological trait in the philogenetic tree,Refers to deducing the evolutionary history or pattern of a specific morphological trait by examining its distribution across different species within a genus and placing this information within a phylogenetic tree.
+mt132,IUCN red list regional assesment for the Mediterranean Sea,"The Iregional UCN Red List assessment is a process used to evaluate the conservation status of species in a given region. In this case, in the Mediterranean Sea."
+mt133,Polyp size estimated based on the size of the anthosthele,"Refers to a method of estimating the size of a coral polyp by measuring the anthostele, which is the central, often cylindrical structure of the coral polyp that contains the mouth and is connected to the polyp's tentacles."
+mt134,Polyp size estimated based on the size of the calyx,"Refers to a method of estimating the size of a coral polyp by measuring the calyx, which is the cup-shaped skeletal structure that surrounds the polyp's body."
+mt135,Polypsize estimated based on the size  of polyp mounds,"Refers to a method used to estimate the size of a coral polyp by measuring the size of the polyp mounds, which are raised, mound-like structures formed by the accumulation of calcium carbonate secreted by the polyp."
+mt136,Monitoring of individual colonies over time,Involves observing a given trait over a defined period.
+mt137,Inferred from genus-level information provided in data table,Refers to  making estimates about specific characteristics or traits of organisms based on the data presented for a particular genus in a table.
+mt138,Growth rings count,Relationship between number of growth rings of known deposition rate and colony diameter and/or height
+mt139,Derived from type of skeleton trait values,Refers to inferring certain traits  of an organism based on the type of skeleton trait values.

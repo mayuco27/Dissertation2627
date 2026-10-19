@@ -32,5 +32,11 @@ atlantic_points_sf <- st_intersection(my_points_sf, atlantic_polygon)
 # 5. Save as a new CSV
 result_df <- atlantic_points_sf 
 
+summarytable <- summary(result_df[, c("latitude", "longitude")])
+print(summarytable)
+
 write.csv(result_df, "atlantic_coordinates.csv", row.names = FALSE)
 cat("Success! Filtered coordinates have been saved.\n")
+
+
+
