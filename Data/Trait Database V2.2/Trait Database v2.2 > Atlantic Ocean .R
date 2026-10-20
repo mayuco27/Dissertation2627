@@ -38,7 +38,7 @@ octo_sf <- octo_sf %>%
 # 3. Convert your Atlantic coordinates into a spatial polygon or point grid
 # Option A: If your CSV is a bounding grid of points, turn it into points:
 atlantic_sf <- atlantic_coords %>%
-  st_as_sf(coords = c("your_lon_col", "your_lat_col"), crs = 4001)
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4001)
 
 # Option B: If your CSV marks boundary vertices, you can build a bounding box or polygon:
 # atlantic_poly <- atlantic_sf %>% st_combine() %>% st_cast("POLYGON")
