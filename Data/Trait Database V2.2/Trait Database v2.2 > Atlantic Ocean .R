@@ -1,9 +1,13 @@
 library(sf)
 library(tidyverse)
+library(readxl)
 
-# 1. Load the datasets Force R to read ALL columns as character strings first to eliminate parsin
-octo_data_raw <- read_csv("OctocoralTraits_v2_2.csv", col_types = cols(.default = "c"))
-atlantic_coords <- read_csv("/Users/may_urico_/Dissertation2627/Data/2016 Traits/atlantic_coordinates.csv")
+# 1. OctocoralTraits-V2.2 dataset is too large, so instead of importing the whole dataset, load only relevand records (i.e., N/A and missing data are dropped, location filtered for Atlantic Ocean)
+octo_data_raw <- read_excel("OctocoralTrait Cleand for R .xlsx")
+atlantic_coords
+
+
+## ------
 
 # 2. 
 # 2.a. First, convert text columns into true numeric numbers
@@ -22,7 +26,7 @@ nrow(octo_data_raw) - nrow(octo_clean)
 
 # ---
 # Vast majority of data dropped due to "global estimate" on locations column, also don't have latitude and longitude coordinates. 
-# -> will shift to downloading OBIS species occurence data 
+# 
 
 
 

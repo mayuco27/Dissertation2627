@@ -9,18 +9,16 @@ atlantic_polygon <- ocean_features %>%
   filter(grepl("Atlantic Ocean", name, ignore.case = TRUE))
 
 # 2. Read your CSV file
-my_data <- read.csv("locations.csv", stringsAsFactors = FALSE)
+locations <- read_csv("~/Dissertation2627/Data/2016 Traits/locations.csv")
+View(locations)
 
-# -------------------------------------------------------------
-# FIX: Remove rows where longitude or latitude is missing (NA)
-# Replace "longitude" and "latitude" with your actual column names
-my_data_clean <- my_data %>%
+# 2.1. FIX: Remove rows where longitude or latitude is missing (NA)
+locations_clean <- locations %>%
   filter(!is.na(longitude) & !is.na(latitude)) 
-# -------------------------------------------------------------
 
 # 3. Convert the CLEANED data into an R spatial object
 my_points_sf <- st_as_sf(
-  my_data_clean,                          # Use the cleaned data frame here
+  locations_clean,                          # Use the cleaned data frame here
   coords = c("longitude", "latitude"), 
   crs = 4326, 
   remove = FALSE  
@@ -30,7 +28,7 @@ my_points_sf <- st_as_sf(
 atlantic_points_sf <- st_intersection(my_points_sf, atlantic_polygon)
 
 # 5. Save as a new CSV
-result_df <- atlantic_points_sf 
+result_df <- atlantic_points_sf %>% select(1:note)
 
 summarytable <- summary(result_df[, c("latitude", "longitude")])
 print(summarytable)
